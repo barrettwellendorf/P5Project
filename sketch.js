@@ -4,7 +4,7 @@ let recharge;
 let on;
 
 function preload() {
-  img = loadImage('images/ForestBirds.jpg');
+  img = loadImage('ForestBirds.jpg');
 }
 
 function setup() {
