@@ -1,1 +1,2 @@
 # P5Project
+This P5 page primarily uses the loadPixels command in order to load each pixel of the image used individually. This allows the brightness effect to be applied to certain pixels, creating a "flashlight" effect, however, because of the way this page loads, it can be very slow with larger images. Over time the flashlight effect fades, but by clicking, users can turn the flashlight on and off, and allow it to recharge while off by pressing the "a" key.
