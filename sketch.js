@@ -32,7 +32,7 @@ function draw() {
   }
   else {
     brightness = 0;
-    // recharge = recharge + 2.5;
+    recharge = recharge + 2.5;
     if (recharge >= 100){
       recharge = 100;
     }
@@ -60,7 +60,7 @@ function draw() {
   console.log(recharge);
 }
 
-function keyPressed() {
-  if (keyCode === 'a') {
-    recharge = recharge + 2.5;
-}
+// function keyPressed() {
+//   if (keyCode === 'a') {
+//     recharge = recharge + 2.5;
+// }
